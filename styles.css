@@ -1,6 +1,36 @@
 input {
   width: 110px;
-  border-radius: 5%;
-  border: 0.5px solid skyblue;
+  border-radius: 10%;
+  border: 2px solid silver;
   margin: 5px;
+}
+#expense,
+#totalExpensesBal {
+  position: relative;
+  left: 10px;
+}
+#income,
+#totalIncomesBal,
+#cashAvailable {
+  position: relative;
+  left: 20px;
+}
+.container {
+  background: #eee;
+  margin: 50px auto;
+  border-radius: 10%;
+}
+.btn-outline-dark {
+  width: 240px;
+}
+#cashAvailable {
+  position: relative;
+  left: 15px;
+}
+.row {
+  padding: 50px;
+}
+.heading {
+  text-align: center;
+  padding-top: 20px;
 }
